@@ -36,6 +36,9 @@
 #### Используемые модели
 - YOLOv8 для детекции людей и телефонов (можно загрузить свои веса)
 - Классификатор людей (студент/преподаватель) — поддержка кастомных моделей
+Имеются 2 предобученные модели для использования, которые находятся по пути: detect_exam_cheating\yolo_phone_training\phone_detection\weights\best.pt, detect_exam_cheating\yolo_cls_training\person_classifier5\weights\best.pt
+
+Возможно телефон не сможет детектиться, если видео имеет низкое разрешение!
 
 ### Как запустить
 1. Установите Python 3.8+ и pip
@@ -63,7 +66,22 @@
 - **Вкладка "Разметка"**: ручная разметка людей (студент/преподаватель)
 - **Вкладка "Детекция"**: запуск анализа, просмотр результатов, скачивание отчета и размеченного видео
 
+## Функционал веб-приложения:
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/schemerus.png?raw=true)
 
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/interfaceRus.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/crops.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/labeling.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/labels.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/tracking.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/detection.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/report.png?raw=true)
 
 ## English
 
@@ -119,8 +137,28 @@ This is a Streamlit-based web application for automatic detection of exam violat
 - Upload videos for analysis via the web interface
 - For custom YOLOv8 models (phone detection, person classification), upload your `.pt` files via the interface
 
+There are 2 pre-trained models to use, which are located at: detect_exam_cheating\yolo_phone_training\phone_detection\weights\best.pt, detect_exam_cheating\yolo_cls_training\person_classifier5\weights\best.pt
+
+The phone may not be detected if the video has a low resolution!
+
 ### Web Interface Usage
 - **"Upload & Settings" tab**: upload videos and models, set extraction parameters
 - **"Labeling" tab**: manually label people (student/teacher)
 - **"Detection" tab**: run analysis, view results, download report and annotated video
 
+## Web application functionality:
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/schemeeng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/interfaceEng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/cropsEng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/labelsEng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/saving.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/trackingEng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/detectionEng.png?raw=true)
+
+![Alt text](https://github.com/Sol1tud9/detect_exam_cheating/blob/main/images/reportEng.png?raw=true)
