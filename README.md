@@ -57,7 +57,6 @@
 #### Подготовка данных и моделей
 - Видео для анализа загружаются через веб-интерфейс
 - Для кастомных моделей YOLOv8 (детекция телефонов, классификация людей) загрузите свои `.pt` файлы через интерфейс
-- Пример структуры датасета и конфигов — в файлах `data.yaml`, `phones/data.yaml`, `yolodataset/data.yaml`
 
 ### Использование веб-интерфейса
 - **Вкладка "Загрузка и Настройки"**: загрузка видео и моделей, настройка параметров извлечения
@@ -119,7 +118,6 @@ This is a Streamlit-based web application for automatic detection of exam violat
 #### Data and Model Preparation
 - Upload videos for analysis via the web interface
 - For custom YOLOv8 models (phone detection, person classification), upload your `.pt` files via the interface
-- Example dataset structure and configs — see `data.yaml`, `phones/data.yaml`, `yolodataset/data.yaml`
 
 ### Web Interface Usage
 - **"Upload & Settings" tab**: upload videos and models, set extraction parameters
